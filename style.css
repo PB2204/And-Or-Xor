@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.whole {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23, 24, 24);
+}
+
+h1 {
+    font-family: 'Stick', sans-serif;
+    color: lightgreen;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.userinput {
+    height: 30%;
+    display: flex;
+}
+
+.uservalue1,
+.uservalue2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.uservalue1 {
+    left: 20px;
+}
+
+.uservalue2 {
+    right: 20px;
+}
+
+.ans {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    pointer-events: none;
+}
+
+label {
+    margin-bottom: 20px;
+    text-align: center;
+    color: lightblue;
+}
+
+input {
+    height: 5vh;
+    background-color: antiquewhite;
+    width: 30vw;
+    font-weight: bold;
+    font-size: 40px;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.btn {
+    height: 15%;
+    margin-top: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    height: 52%;
+    width: 28%;
+    background: #ee1010;
+    color: #f5f9f9;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    border-radius: 90px;
+    transition: 0.3s ease-in-out all;
+}
+
+button:hover {
+    background:#f5f9f9;
+    color: #ee1010;
+}
+
+footer {
+    text-align: center;
+    color: lightgreen;
+    height: 7%;
+    position: absolute;
+    bottom: 2px;
+    font-size: 20px;
+}
+
+span {
+    color: crimson;
+}
+
+a {
+    font-family: 'Stick', sans-serif;
+    text-decoration: none;
+    color: crimson;
+}
